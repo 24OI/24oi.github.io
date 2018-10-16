@@ -1,20 +1,84 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="zh">
+
 <head>
-    <title>众筹买衣做旗帜</title>
-    <meta charset='utf-8' />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<title> 24OI </title>
+
+	<style type="text/css">
+		img, h1, ul, li, a{
+			-webkit-animation: fade-in 2.5s ease 0s 1;
+    		-moz-animation: fade-in 2.5s ease 0s 1;
+    		-o-animation: fade-in 2.5s ease 0s 1;
+    		-ms-animation: fade-in 2.5s ease 0s 1;
+    	}
+
+		h1.name{
+			margin-top: 3px;
+			letter-spacing: 15px;
+			padding-left: 15px;
+			font-size: 30px;
+			margin-bottom: 0px;
+		}
+		h1.sentence{
+			margin-top: 10px;
+			margin-bottom: 10px;
+			font-size: 20px;
+			letter-spacing: 5px;
+			padding-left: 5px;
+			padding-bottom: 0px;
+		}
+	</style>
+
+	<script>
+	function Changepic(event){
+		event.preventDefault();
+		document.getElementById("b").background="https://acg.toubiec.cn/random.php?fa8e648d8f8fcb8469b51515"+Math.random();
+	}
+	</script>
+
 </head>
-<body>
-	<div align="center">
-		<a href='http://tshe.com/c/3aa2fe36'> http://tshe.com/c/3aa2fe36</a><br/>
-        <a href='http://cjsic.coding.io'>点我填报尺码</a>
-		<br>
-		<div>
-            <img src='a.png' /> <img src='b.png' />
-            </div>
-            <div>
-                <img src='c.png' />
-                </div>
-	</div>
-	<p align="center">Building for 24OI.</p>
+
+<body id="b" background="https://acg.toubiec.cn/random.php?fa8e648d8f8fcb8469b51515">
+	<section class="title">
+		<img class="head" src="img/index/head.jpeg">  </img>
+		<h1 class="name"> 24OI </h1>
+		<h1 class="sentence"> - chmod -R 777 / - </h1>
+		<ul>
+			<li>
+				<a href="qq.html"> <img class="link" src="img/index/qq.jpeg"> </img></a>
+			</li>
+			<li>
+				<a href="https://github.com/24OI/24oi.github.io" target="_blank"> <img class="link" src="img/index/github.png"> </img></a>
+			</li>
+			<!-- <li> b </li> -->
+		</ul>
+		<a class="button" href="blog/list.html">
+			<h2 style="padding: 5px 20px; display:inline;">
+				我们的社团
+			</h2>
+		</a>
+		<div style="margin-top:15px;margin-bottom:15px;"> </div>
+		<div style="margin-top:15px;margin-bottom:15px;"> </div>
+		<a class="button" href="http://interestinglsy.coding.me/2147483648/">
+			<h2 style="padding: 5px 20px; display:inline;">
+				累了?玩会游戏吧
+			</h2>
+		</a>
+		<br />
+		<a href="about.html">
+			<h2 class="aboutlink">
+				. . . . . . . . . . . .
+			</h2>
+		</a>
+	</section>
+	<a class="chgbutton" href="233" onclick="Changepic(event)">
+		<h2 style="margin:1px 4px;">
+			换张<br />
+			背景
+		</h2>
+	</a>
 </body>
+
 </html>
