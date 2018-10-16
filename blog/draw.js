@@ -55,7 +55,7 @@ document.write(" \
 		</a> \
 		<a href=\"https://yuyanjiaB.cnblogs.com/\"> \
 			<div class=\"friendlink\"> \
-				BZY 红胖子 (bin哥) \
+				BZY (bin哥) \
 			</div> \
 		</a> \
 		<a href=\"http://www.cnblogs.com/ivorysi\"> \
