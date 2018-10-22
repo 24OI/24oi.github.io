@@ -5,6 +5,7 @@ function Head(){
 	document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"/highlight/styles/default.css\" />");
 	document.write("<script src=\"/highlight/highlight.pack.js\"> </script>");
 	document.write("<script>hljs.initHighlightingOnLoad();</script>");
+	document.write("<script src=\"/ball.js\"> </script>");
 }
 function Bottom(){
 document.write(" \
@@ -55,7 +56,7 @@ document.write(" \
 		</a> \
 		<a href=\"https://yuyanjiaB.cnblogs.com/\"> \
 			<div class=\"friendlink\"> \
-				BZY 红胖子 (bin哥) \
+				BZY (bin哥) \
 			</div> \
 		</a> \
 		<a href=\"http://www.cnblogs.com/ivorysi\"> \
