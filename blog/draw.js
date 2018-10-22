@@ -38,7 +38,7 @@ document.write(" \
 	</section> \
 	<section class=\"sidecard\" style=\"opacity:1; background:#dddddd\"> \
 		<h2 class=\"sidetitle\" style=\"margin-bottom:0px\"> 随机出来的妹子图qwq </h2> \
-		<img src=\"https://acg.toubiec.cn/random.php?fa8e648d8f8fcb8469b51515\" class=\"girlimg\"/> \
+		<img src=\"https://api.3ewl.cc/acg/img.php\" class=\"girlimg\"/> \
 		<div class=\"sidecont\" style=\"margin-top:0px;margin-bottom:1px; text-align:center; font-size:11px; padding-left:23px; letter-spacing:23px\"> 鼠标移上以舔屏 </div> \
 	</section> \
 	<section class=\"sidecard\"> \
@@ -95,3 +95,7 @@ document.write(" \
 </div> \
 ")
 }
+/*
+old_img:https://acg.toubiec.cn/random.php?fa8e648d8f8fcb8469b51515
+new_img:https://api.3ewl.cc/acg/img.php
+*/
